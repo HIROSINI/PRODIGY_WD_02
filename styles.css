@@ -1,0 +1,76 @@
+body
+{
+  background-position: bottom;
+  background-color: black;
+}
+.stopwatch 
+{
+  text-align: center;
+  margin-top: 20px;
+  border-color: aliceblue;
+  border-style: dotted;
+  background-color: rgb(21, 21, 66);
+  display: inline-block;
+  padding: 30px;
+  margin-left: 550px;
+  border-radius: 20px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+#dis
+{
+    font-size: 3em;
+    color: aliceblue;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+#display 
+{
+  font-size: 3em;
+  color: aliceblue;
+  margin-bottom: 20px;
+  text-align: center;
+}
+button 
+{
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 10px;
+  margin: 5px;
+}
+#laps 
+{
+  margin-top: 20px;
+  text-align: center;
+  color: aliceblue;
+  margin-right: 10px;
+}
+.controls 
+{
+  margin-bottom: 20px;
+  color: aliceblue;
+  text-align: center;
+}
+table
+{
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td
+{
+  padding: 10px;
+  text-align: center;
+}
+th
+{
+  background-color: aliceblue;
+  color: #333;
+}
+tbody tr:nth-child(odd)
+{
+  background-color: rgba(255, 255, 255, 0.1);
+}
+tbody tr:hover
+{
+  background-color: rgba(255, 255, 255, 0.2);
+}
